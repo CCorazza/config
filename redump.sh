@@ -29,4 +29,4 @@ cp config/conf/vimrc ~/.myvimrc && \
 cp -r config/colors ~/.vim/colors;
 rm -rf .config/ ;
 
-echo "[\033[38;5;190mx\033[0m]  Prettied everything :3 --- \n\t\033[38;5;240mYour original files are backed up under ~/.myvimrc.bak and ~/.zshrc.bak\033[0m
+echo "[\033[38;5;190mx\033[0m]  Prettied everything :3 --- \n\t\033[38;5;240mYour original files are backed up under ~/.myvimrc.bak and ~/.zshrc.bak\033[0m"

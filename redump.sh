@@ -4,7 +4,6 @@
 echo "[ ]  Updating Homebrew --- \n"
 
 cd ~/Library/Caches ; rm -rf Homebrew
-
 brew update && brew upgrade;
 mkdir ~/Library/Caches/Homebrew/
 
@@ -25,6 +24,7 @@ echo "[ ]  Saving your -rc files and making your vim and shell pretty --- \n\t\0
 cd ~ && git clone --quiet https://github.com/CCorazza/config.git .config;
 mv ~/.myvimrc ~/.myvimrc.bak && mv ~/.zshrc ~/.zshrc.bak && \ 
 cp -i config/conf/zshrc ~/.zshrc && \
+cp -i iTermProfile/com.googlecode.iterm2.plist ~/Library/Preferences
 cp config/conf/vimrc ~/.myvimrc && \
 cp -r config/colors ~/.vim/colors;
 rm -rf .config/ ;

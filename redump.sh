@@ -22,10 +22,11 @@ echo "[\033[38;5;190mx\033[0m]  Nerdtree installed --- \n"
 
 echo "[ ]  Saving your -rc files and making your vim and shell pretty --- \n\t\033[38;5;240mShell is optional\033[0m"
 cd ~ && git clone https://github.com/CCorazza/config.git .configbak;
-mv ~/.myvimrc ~/.myvimrc.bak && mv ~/.zshrc ~/.zshrc.bak && \ 
+mv ~/.myvimrc ~/.configbak/myvimrc.bak && mv ~/.zshrc ~/.configbak/zshrc.bak && \ 
 cp -i .configbak/iTermProfile/com.googlecode.iterm2.plist ~/Library/Preferences
 cp .configbak/conf/vimrc ~/.myvimrc && \
-cp -r configbak/colors ~/.vim/colors;
+cp .configbak/conf/zshrc ~/.zshrc && \
+cp -r .configbak/colors ~/.vim/colors;
 #rm -rf .config/ ;
 
 echo "[\033[38;5;190mx\033[0m]  Prettied everything :3 --- \n\t\033[38;5;240mYour original files are backed up under ~/.myvimrc.bak and ~/.zshrc.bak\033[0m"

@@ -12,9 +12,7 @@ cd ~ ;
 
 echo "[ ]  Installing Nerdtree to your vim (emacs is for the weaks) --- \n"
 
-mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && \
-cd ~/.vim/bundle ; git clone https://github.com/scrooloose/nerdtree.git ;
+mkdir -pv ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && cd ~/.vim/bundle ; git clone https://github.com/scrooloose/nerdtree.git ;
 
 echo "[\033[38;5;190mx\033[0m]  Nerdtree installed --- \n"
 

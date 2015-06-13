@@ -12,7 +12,9 @@ cd ~ ;
 
 echo "[ ]  Installing Nerdtree to your vim (emacs is for the weaks) --- \n"
 
-mkdir -pv ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && cd ~/.vim/bundle ; git clone https://github.com/scrooloose/nerdtree.git ;
+mkdir -pv ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && \
+cd ~/.vim/bundle ; git clone https://github.com/scrooloose/nerdtree.git ;
 
 echo "[\033[38;5;190mx\033[0m]  Nerdtree installed --- \n"
 
@@ -25,6 +27,6 @@ mv ~/.myvimrc ~/.configbak/myvimrc.bak && mv ~/.zshrc ~/.configbak/zshrc.bak && 
 cp .configbak/conf/vimrc ~/.myvimrc && \
 cp .configbak/conf/zshrc ~/.zshrc && \
 cp -r .configbak/colors ~/.vim/colors;
-#rm -rf .config/ ;
+#rm -rf .configbak/ ;
 
 echo "[\033[38;5;190mx\033[0m]  Prettied everything :3 --- \n\t\033[38;5;240mYour original files are backed up under ~/.myvimrc.bak and ~/.zshrc.bak\033[0m"

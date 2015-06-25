@@ -1,3 +1,8 @@
+"
+" File is corrupt, trailing characters - Fix before using
+"
+
+
 " Author: Kim Silkebækken <kim.silkebaekken+vim@gmail.com>
 " Source repository: https://github.com/Lokaltog/vim-distinguished
 

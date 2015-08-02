@@ -10,6 +10,9 @@
 #echo "[\033[38;5;190mx\033[0m]  Updating Homebrew --- \n"
 cd ~ ;
 
+echo "[ ]  Installing git, tig, curl and ssh --- \n"
+apt-get install curl git tig ssh
+echo "[\033[38;5;190mx\033[0m]  Utilitaries  installed --- \n"
 echo "[ ]  Installing Nerdtree to your vim (emacs is for the weaks) --- \n"
 
 mkdir -pv ~/.vim/autoload ~/.vim/bundle ~/.vim/colors && \

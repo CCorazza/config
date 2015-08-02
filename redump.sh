@@ -24,7 +24,7 @@ echo "[ ]  Saving your -rc files and making your vim and shell pretty --- \n\t\0
 cd ~ && git clone https://github.com/CCorazza/config.git .configbak;
 mv ~/.myvimrc ~/.configbak/myvimrc.bak && mv ~/.zshrc ~/.configbak/zshrc.bak && \ 
 #cp -i .configbak/iTermProfile/com.googlecode.iterm2.plist ~/Library/Preferences
-cp .configbak/conf/vimrc ~/.myvimrc && \
+cp .configbak/conf/vimrc ~/.vimrc && \
 cp .configbak/conf/zshrc ~/.zshrc && \
 cp -r .configbak/colors ~/.vim/colors;
 #rm -rf .configbak/ ;

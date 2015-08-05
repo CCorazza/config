@@ -1,9 +1,6 @@
-# config
-After a redump or to get a clean repo @school
+# Algolia OSM
+to install properly the website on a new env.
 
-```curl https://raw.githubusercontent.com/CCorazza/config/master/redump.sh | sh ```
+- 1.	```curl https://raw.githubusercontent.com/CCorazza/config/master/APT_INSTALLS_ALGOLIA_osm.sh | sh ```
+- 2.	```curl https://raw.githubusercontent.com/CCorazza/config/master/DB_INSTALLS_ALGOLIA_osm.sh | sh ```
 
-To do when brew gets fixed :
-- [x] reinstall Node and npm
-- [ ] reinstall ionic
-- [ ] make courses
